@@ -1,0 +1,579 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link href="../assets/css/style.css" rel="stylesheet" />
+
+    <!-- Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="flex flex-col antialiased">
+    <!-- Header -->
+    <header class="fixed left-0 top-0 w-full border-b bg-white px-4">
+      <div class="container flex items-center justify-between gap-6 py-4">
+        <!-- LogoSite -->
+        <a href="/">
+          <img
+            src="../assets/images/cleanique-academy.webp"
+            alt="Cleanique Academy"
+            class="h-12 w-auto"
+          />
+        </a>
+
+        <!-- nav -->
+        <ul class="hidden items-center justify-center gap-4 md:flex">
+          <li>
+            <a href="#" class="btn btn-ghost btn-active">Beranda</a>
+          </li>
+
+          <li>
+            <a href="#" class="btn btn-ghost">Bantuan</a>
+          </li>
+        </ul>
+
+        <!-- Auth -->
+        <div class="flex items-center justify-center gap-4">
+          <a href="#" class="btn btn-primary"
+            >Daftar
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="h-5 w-5"
+            >
+              <path
+                d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"
+              ></path>
+            </svg>
+          </a>
+
+          <!-- Drawer -->
+          <div class="drawer md:hidden">
+            <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+            <div class="drawer-content">
+              <!-- Page content here -->
+              <label
+                for="my-drawer"
+                class="btn btn-outline btn-accent drawer-button aspect-square p-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="h-5 w-5"
+                >
+                  <path
+                    d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"
+                  ></path>
+                </svg>
+              </label>
+            </div>
+            <div class="drawer-side">
+              <label
+                for="my-drawer"
+                aria-label="close sidebar"
+                class="drawer-overlay"
+              ></label>
+              <ul
+                class="menu min-h-full w-80 bg-base-200 p-4 text-base-content"
+              >
+                <!-- Sidebar content here -->
+                <li><a>Sidebar Item 1</a></li>
+                <li><a>Sidebar Item 2</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- ./ Drawer -->
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="flex flex-col">
+      <!-- Hero -->
+      <section class="bg-slate-100 px-4 py-20 pt-40">
+        <div class="container flex flex-col items-center">
+          <h1 class="text-3xl font-black text-[#289721] md:text-6xl">
+            #Grow Yourself With Us
+          </h1>
+
+          <div class="bg-white p-4"></div>
+
+          <div class="w-full overflow-hidden rounded-xl bg-white p-4 shadow-xl">
+            <div
+              class="flex w-full flex-col gap-6 text-center md:flex-row md:items-center md:justify-evenly md:p-6"
+            >
+              <div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+                  veniam enim officia, dolor similique vitae nulla!
+                </p>
+              </div>
+              <div class="divider"></div>
+              <div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+                  veniam enim officia, dolor similique vitae nulla!
+                </p>
+              </div>
+              <div class="divider"></div>
+              <div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+                  veniam enim officia, dolor similique vitae nulla!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ./ Hero -->
+
+      <!-- Tagline -->
+      <section class="px-4 pt-20">
+        <div class="container flex flex-col items-center gap-12">
+          <!-- Row -->
+          <div
+            class="flex w-full flex-col items-center justify-between gap-6 md:flex-row"
+          >
+            <img
+              src="../assets/images/cleanique-academy.webp"
+              alt="Cleanique Academy"
+              class="h-12 w-auto"
+            />
+
+            <span class="text-lg font-bold"
+              >Berani Memulai, Menjadi Peluang</span
+            >
+          </div>
+          <!-- ./ Row -->
+        </div>
+      </section>
+      <!-- ./ Tagline -->
+
+      <!-- Program -->
+      <section
+        class="bg-gradient-to-b from-transparent from-50% to-[#289721] to-50% px-4 py-20"
+      >
+        <div class="container flex flex-col items-center gap-12">
+          <!-- Row -->
+          <h2 class="text-2xl font-bold md:text-4xl">Program Kemitraan</h2>
+          <!-- ./ Row -->
+
+          <!-- Row -->
+          <div class="grid w-full gap-8 md:w-2/3 md:grid-cols-2">
+            <!-- Col -->
+            <div
+              class="flex h-full flex-col items-center justify-start gap-6 rounded-2xl border bg-white p-6 text-center shadow-xl md:p-6"
+            >
+              <img
+                src="../assets/images/cleanique-academy.webp"
+                alt="Cleanique Academy"
+                class="h-12 w-auto"
+              />
+
+              <h3 class="text-lg font-bold md:text-xl">ACADEMY</h3>
+
+              <p>
+                Program kemitraan intensif usaha Depo Cleanique dengan pemberian
+                modal usaha.
+              </p>
+
+              <button class="btn btn-outline mt-auto w-full">
+                Selengkapnya
+              </button>
+            </div>
+            <!-- ./ Col -->
+
+            <!-- Col -->
+            <div
+              class="flex h-full flex-col items-center justify-start gap-6 rounded-2xl border bg-white p-6 text-center shadow-xl md:p-6"
+            >
+              <img
+                src="../assets/images/cleanique-academy.webp"
+                alt="Cleanique Academy"
+                class="h-12 w-auto"
+              />
+
+              <h3 class="text-lg font-bold md:text-xl">REGULER</h3>
+
+              <p>
+                Paket usaha depot isi ulang berbagai macam sabun & cairan
+                pembersih untuk kebutuhan rumah tangga.
+              </p>
+
+              <button class="btn btn-outline mt-auto w-full">
+                Selengkapnya
+              </button>
+            </div>
+            <!-- ./ Col -->
+          </div>
+          <!-- ./ Row -->
+        </div>
+      </section>
+      <!-- ./ Program -->
+
+      <!-- Produk Unggulan -->
+      <section class="px-4 py-20">
+        <div class="container grid gap-20 md:grid-cols-3">
+          <!-- Col -->
+          <div class="overflow-hidden rounded-2xl border"></div>
+          <!-- ./ Col -->
+
+          <!-- Col -->
+          <div class="md:col-span-2">
+            <!-- Produk List -->
+            <div class="grid gap-4 sm:grid-cols-2">
+              <!-- Produk Item -->
+              <div class="flex gap-6">
+                <!-- Media -->
+                <div
+                  class="flex aspect-square h-20 shrink-0 items-center justify-center border"
+                >
+                  <img
+                    src="../assets/images/cleanique-academy.webp"
+                    alt="Cleanique Academy"
+                    class="h-auto w-full"
+                  />
+                </div>
+
+                <!-- Content -->
+                <div class="flex flex-col items-start justify-center">
+                  <h3 class="font-medium">Determat Matic</h3>
+                  <p class="text-slate-500">
+                    Paketbahan deterjen cair rendah busa.
+                  </p>
+                </div>
+              </div>
+              <!-- ./ Produk Item -->
+
+              <!-- Produk Item -->
+              <div class="flex gap-6">
+                <!-- Media -->
+                <div
+                  class="flex aspect-square h-20 shrink-0 items-center justify-center border"
+                >
+                  <img
+                    src="../assets/images/cleanique-academy.webp"
+                    alt="Cleanique Academy"
+                    class="h-auto w-full"
+                  />
+                </div>
+
+                <!-- Content -->
+                <div class="flex flex-col items-start justify-center">
+                  <h3 class="font-medium">Determat Matic</h3>
+                  <p class="text-slate-500">
+                    Paketbahan deterjen cair rendah busa.
+                  </p>
+                </div>
+              </div>
+              <!-- ./ Produk Item -->
+
+              <!-- Produk Item -->
+              <div class="flex gap-6">
+                <!-- Media -->
+                <div
+                  class="flex aspect-square h-20 shrink-0 items-center justify-center border"
+                >
+                  <img
+                    src="../assets/images/cleanique-academy.webp"
+                    alt="Cleanique Academy"
+                    class="h-auto w-full"
+                  />
+                </div>
+
+                <!-- Content -->
+                <div class="flex flex-col items-start justify-center">
+                  <h3 class="font-medium">Determat Matic</h3>
+                  <p class="text-slate-500">
+                    Paketbahan deterjen cair rendah busa.
+                  </p>
+                </div>
+              </div>
+              <!-- ./ Produk Item -->
+
+              <!-- Produk Item -->
+              <div class="flex gap-6">
+                <!-- Media -->
+                <div
+                  class="flex aspect-square h-20 shrink-0 items-center justify-center border"
+                >
+                  <img
+                    src="../assets/images/cleanique-academy.webp"
+                    alt="Cleanique Academy"
+                    class="h-auto w-full"
+                  />
+                </div>
+
+                <!-- Content -->
+                <div class="flex flex-col items-start justify-center">
+                  <h3 class="font-medium">Determat Matic</h3>
+                  <p class="text-slate-500">
+                    Paketbahan deterjen cair rendah busa.
+                  </p>
+                </div>
+              </div>
+              <!-- ./ Produk Item -->
+
+              <!-- Produk Item -->
+              <div class="flex gap-6">
+                <!-- Media -->
+                <div
+                  class="flex aspect-square h-20 shrink-0 items-center justify-center border"
+                >
+                  <img
+                    src="../assets/images/cleanique-academy.webp"
+                    alt="Cleanique Academy"
+                    class="h-auto w-full"
+                  />
+                </div>
+
+                <!-- Content -->
+                <div class="flex flex-col items-start justify-center">
+                  <h3 class="font-medium">Determat Matic</h3>
+                  <p class="text-slate-500">
+                    Paketbahan deterjen cair rendah busa.
+                  </p>
+                </div>
+              </div>
+              <!-- ./ Produk Item -->
+
+              <!-- Produk Item -->
+              <div class="flex gap-6">
+                <!-- Media -->
+                <div
+                  class="flex aspect-square h-20 shrink-0 items-center justify-center border"
+                >
+                  <img
+                    src="../assets/images/cleanique-academy.webp"
+                    alt="Cleanique Academy"
+                    class="h-auto w-full"
+                  />
+                </div>
+
+                <!-- Content -->
+                <div class="flex flex-col items-start justify-center">
+                  <h3 class="font-medium">Determat Matic</h3>
+                  <p class="text-slate-500">
+                    Paketbahan deterjen cair rendah busa.
+                  </p>
+                </div>
+              </div>
+              <!-- ./ Produk Item -->
+
+              <!-- Produk Item -->
+              <div class="flex gap-6">
+                <!-- Media -->
+                <div
+                  class="flex aspect-square h-20 shrink-0 items-center justify-center border"
+                >
+                  <img
+                    src="../assets/images/cleanique-academy.webp"
+                    alt="Cleanique Academy"
+                    class="h-auto w-full"
+                  />
+                </div>
+
+                <!-- Content -->
+                <div class="flex flex-col items-start justify-center">
+                  <h3 class="font-medium">Determat Matic</h3>
+                  <p class="text-slate-500">
+                    Paketbahan deterjen cair rendah busa.
+                  </p>
+                </div>
+              </div>
+              <!-- ./ Produk Item -->
+
+              <!-- Produk Item -->
+              <div class="flex gap-6">
+                <!-- Media -->
+                <div
+                  class="flex aspect-square h-20 shrink-0 items-center justify-center border"
+                >
+                  <img
+                    src="../assets/images/cleanique-academy.webp"
+                    alt="Cleanique Academy"
+                    class="h-auto w-full"
+                  />
+                </div>
+
+                <!-- Content -->
+                <div class="flex flex-col items-start justify-center">
+                  <h3 class="font-medium">Determat Matic</h3>
+                  <p class="text-slate-500">
+                    Paketbahan deterjen cair rendah busa.
+                  </p>
+                </div>
+              </div>
+              <!-- ./ Produk Item -->
+
+              <!-- Produk Item -->
+              <div class="flex gap-6">
+                <!-- Media -->
+                <div
+                  class="flex aspect-square h-20 shrink-0 items-center justify-center border"
+                >
+                  <img
+                    src="../assets/images/cleanique-academy.webp"
+                    alt="Cleanique Academy"
+                    class="h-auto w-full"
+                  />
+                </div>
+
+                <!-- Content -->
+                <div class="flex flex-col items-start justify-center">
+                  <h3 class="font-medium">Determat Matic</h3>
+                  <p class="text-slate-500">
+                    Paketbahan deterjen cair rendah busa.
+                  </p>
+                </div>
+              </div>
+              <!-- ./ Produk Item -->
+
+              <!-- Produk Item -->
+              <div class="flex gap-6">
+                <!-- Media -->
+                <div
+                  class="flex aspect-square h-20 shrink-0 items-center justify-center border"
+                >
+                  <img
+                    src="../assets/images/cleanique-academy.webp"
+                    alt="Cleanique Academy"
+                    class="h-auto w-full"
+                  />
+                </div>
+
+                <!-- Content -->
+                <div class="flex flex-col items-start justify-center">
+                  <h3 class="font-medium">Determat Matic</h3>
+                  <p class="text-slate-500">
+                    Paketbahan deterjen cair rendah busa.
+                  </p>
+                </div>
+              </div>
+              <!-- ./ Produk Item -->
+            </div>
+            <!-- ./ Produk List -->
+          </div>
+          <!-- ./ Col -->
+        </div>
+      </section>
+      <!-- ./ Produk Unggulan -->
+
+      <!-- Testimony -->
+      <section class="px-4 py-20">
+        <div class="container flex flex-col items-center gap-12">
+          <h2 class="heading-2">Apa Kata Mereka</h2>
+
+          <!-- Testimonies -->
+          <div class="grid w-full gap-8 md:grid-cols-3">
+            <!-- Testimony -->
+            <div
+              class="flex h-full flex-col gap-6 overflow-hidden rounded-2xl border p-6 transition hover:shadow-xl"
+            >
+              <!-- Star Rating -->
+              <div class="flex items-center gap-2 text-yellow-500">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+              </div>
+
+              <!-- Review -->
+              <p class="text-lg">
+                Modal terbatas, tapi semangat tinggi! Cleanique bantu modal dan
+                bimbingan, usaha isi ulang sabun saya sukses!
+              </p>
+
+              <!-- Reviewer -->
+              <div class="mt-auto flex flex-col">
+                <span class="font-medium">Windu</span>
+                <small class="text-slate-500"
+                  >Mitra Temanggung, Jawa Tengan</small
+                >
+              </div>
+            </div>
+            <!-- ./ Testimony -->
+
+            <!-- Testimony -->
+            <div
+              class="flex h-full flex-col gap-6 overflow-hidden rounded-2xl border p-6 transition hover:shadow-xl"
+            >
+              <!-- Star Rating -->
+              <div class="flex items-center gap-2 text-yellow-500">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+              </div>
+
+              <!-- Review -->
+              <p class="text-lg">
+                Dulu hanya kayawan biasa, sekarang jadi pengusaha isi ulang
+                sabun yang mandiri. Berkat Cleanique, mimpi saya terwujud!
+              </p>
+
+              <!-- Reviewer -->
+              <div class="mt-auto flex flex-col">
+                <span class="font-medium">Kevin</span>
+                <small class="text-slate-500">Mitra Denpasar, Bali</small>
+              </div>
+            </div>
+            <!-- ./ Testimony -->
+
+            <!-- Testimony -->
+            <div
+              class="flex h-full flex-col gap-6 overflow-hidden rounded-2xl border p-6 transition hover:shadow-xl"
+            >
+              <!-- Star Rating -->
+              <div class="flex items-center gap-2 text-yellow-500">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+              </div>
+
+              <!-- Review -->
+              <p class="text-lg">
+                Bimbingan Cleanique sangat membantu saya dalam mengembangkan
+                usaha isi ulang sabun. Omzet naik drastis, untung berlimpah!
+              </p>
+
+              <!-- Reviewer -->
+              <div class="mt-auto flex flex-col">
+                <span class="font-medium">Idha</span>
+                <small class="text-slate-500"
+                  >Mitra Sleman, D.I. Yogyakarta</small
+                >
+              </div>
+            </div>
+            <!-- ./ Testimony -->
+          </div>
+          <!-- ./ Testimonies -->
+        </div>
+      </section>
+      <!-- ./ Testimony -->
+
+      <!-- FAQ -->
+      <section class="px-4 py-20">
+        <div class="container flex flex-col items-center gap-12">
+          <h2 class="heading-2">FAQ</h2>
+        </div>
+      </section>
+      <!-- ./ FAQ -->
+    </main>
+
+    <!-- Footer -->
+  </body>
+</html>
