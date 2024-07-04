@@ -1961,6 +1961,48 @@ html {
   }
 }
 
+.btn-sm {
+  height: 2rem;
+  min-height: 2rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.btn-md {
+  height: 3rem;
+  min-height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 0.875rem;
+}
+
+.btn-square:where(.btn-sm) {
+  height: 2rem;
+  width: 2rem;
+  padding: 0px;
+}
+
+.btn-square:where(.btn-md) {
+  height: 3rem;
+  width: 3rem;
+  padding: 0px;
+}
+
+.btn-circle:where(.btn-sm) {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 9999px;
+  padding: 0px;
+}
+
+.btn-circle:where(.btn-md) {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 9999px;
+  padding: 0px;
+}
+
 .drawer-open > .drawer-toggle {
   display: none;
 }
@@ -2059,6 +2101,10 @@ html:has(.drawer-toggle:checked) {
 
 .h-full {
   height: 100%;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .min-h-full {
