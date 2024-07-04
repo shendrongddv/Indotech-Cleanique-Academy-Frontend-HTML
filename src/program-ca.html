@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link href="../assets/css/style.css" rel="stylesheet" />
+
+    <!-- Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="flex flex-col antialiased">
+    <!-- Header -->
+    <header class="fixed left-0 top-0 w-full border-b bg-white px-4">
+      <div class="container flex items-center justify-between gap-6 py-4">
+        <!-- LogoSite -->
+        <a href="/">
+          <img
+            src="../assets/images/cleanique-academy.webp"
+            alt="Cleanique Academy"
+            class="h-10 w-auto"
+          />
+        </a>
+
+        <!-- nav -->
+        <ul class="hidden items-center justify-center gap-2 md:flex">
+          <li>
+            <a href="#" class="btn btn-ghost btn-active">Beranda</a>
+          </li>
+
+          <li>
+            <a href="#" class="btn btn-ghost">Bantuan</a>
+          </li>
+        </ul>
+
+        <!-- Auth -->
+        <div class="flex items-center justify-center gap-2">
+          <a href="#" class="btn btn-primary"
+            >Daftar
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="h-5 w-5"
+            >
+              <path
+                d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"
+              ></path>
+            </svg>
+          </a>
+
+          <!-- Drawer -->
+          <div class="drawer md:hidden">
+            <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+            <div class="drawer-content">
+              <!-- Page content here -->
+              <label
+                for="my-drawer"
+                class="btn btn-outline btn-accent drawer-button aspect-square p-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="h-5 w-5"
+                >
+                  <path
+                    d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"
+                  ></path>
+                </svg>
+              </label>
+            </div>
+            <div class="drawer-side">
+              <label
+                for="my-drawer"
+                aria-label="close sidebar"
+                class="drawer-overlay"
+              ></label>
+              <ul
+                class="menu min-h-full w-80 bg-base-200 p-4 text-base-content"
+              >
+                <!-- Sidebar content here -->
+                <li><a>Sidebar Item 1</a></li>
+                <li><a>Sidebar Item 2</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- ./ Drawer -->
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="flex flex-col">
+      <section class="px-4 py-20 pt-40">
+        <div class="container">
+          <h1>PROGRAM CA</h1>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+  </body>
+</html>
