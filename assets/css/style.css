@@ -2656,6 +2656,11 @@ html:has(.drawer-toggle:checked) {
   line-height: 1;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -2764,6 +2769,10 @@ body,
     --tw-divide-y-reverse: 0;
     border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
     border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+  }
+
+  .max-md\:text-balance {
+    text-wrap: balance;
   }
 
   .max-md\:px-6 {
@@ -2901,5 +2910,10 @@ body,
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
