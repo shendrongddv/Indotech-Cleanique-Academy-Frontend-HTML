@@ -8508,12 +8508,12 @@ html:has(.drawer-open.drawer-open) {
   margin-top: 0.5rem;
 }
 
-.mt-auto {
-  margin-top: auto;
-}
-
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-auto {
+  margin-top: auto;
 }
 
 .box-border {
@@ -8655,10 +8655,6 @@ html:has(.drawer-open.drawer-open) {
   height: 1.25rem;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
 .h-auto {
   height: auto;
 }
@@ -8671,8 +8667,16 @@ html:has(.drawer-open.drawer-open) {
   width: 0.25rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-10 {
   width: 2.5rem;
+}
+
+.w-3\/4 {
+  width: 75%;
 }
 
 .w-5 {
@@ -8701,18 +8705,6 @@ html:has(.drawer-open.drawer-open) {
 
 .w-full {
   width: 100%;
-}
-
-.w-4\/5 {
-  width: 80%;
-}
-
-.w-3\/4 {
-  width: 75%;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .flex-1 {
@@ -9285,12 +9277,6 @@ html:has(.drawer-open.drawer-open) {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
-.space-y-12 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
-}
-
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 1;
 }
@@ -9711,6 +9697,10 @@ html:has(.drawer-open.drawer-open) {
   border-width: 4px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
 .border-x {
   border-left-width: 1px;
   border-right-width: 1px;
@@ -9809,6 +9799,11 @@ html:has(.drawer-open.drawer-open) {
   background-color: var(--fallback-b2,oklch(var(--b2)/var(--tw-bg-opacity)));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-red-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
@@ -9830,14 +9825,6 @@ html:has(.drawer-open.drawer-open) {
 
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'\.\/assets\/images\/bg\/Bakground-1-Photoroom\.png\'\)\] {
-  background-image: url('./assets/images/bg/Bakground-1-Photoroom.png');
-}
-
-.bg-\[url\(\'\/assets\/images\/bg\/Bakground-1-Photoroom\.png\'\)\] {
-  background-image: url('/assets/images/bg/Bakground-1-Photoroom.png');
 }
 
 .from-base-200 {
@@ -10032,9 +10019,8 @@ html:has(.drawer-open.drawer-open) {
   padding-bottom: 1.5rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .pt-20 {
@@ -10047,10 +10033,6 @@ html:has(.drawer-open.drawer-open) {
 
 .pt-40 {
   padding-top: 10rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
 }
 
 .text-left {
@@ -10466,6 +10448,12 @@ html:has(.drawer-open.drawer-open) {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -10659,6 +10647,25 @@ body,
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
+}
+
+.btn-gradient {
+  display: flex;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.gradient-1 {
+  background: rgb(41, 83, 138);
+  background: linear-gradient(
+    90deg,
+    rgba(41, 83, 138, 1) 4%,
+    rgba(129, 177, 201, 1) 41%,
+    rgba(75, 78, 154, 1) 87%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#29538a",endColorstr="#4b4e9a",GradientType=1);
 }
 
 .bg-ornament-1 {
@@ -10887,6 +10894,10 @@ body,
     width: 66.666667%;
   }
 
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
   .md\:w-3\/12 {
     width: 25%;
   }
@@ -10909,10 +10920,6 @@ body,
 
   .md\:w-full {
     width: 100%;
-  }
-
-  .md\:w-2\/5 {
-    width: 40%;
   }
 
   .md\:shrink-0 {

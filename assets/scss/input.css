@@ -12,6 +12,33 @@ body,
   @apply text-2xl font-bold md:text-4xl;
 }
 
+.btn-gradient {
+  @apply flex h-12 items-center justify-center gap-2;
+}
+
+.gradient-1 {
+  background: rgb(41, 83, 138);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(41, 83, 138, 1) 4%,
+    rgba(129, 177, 201, 1) 41%,
+    rgba(75, 78, 154, 1) 87%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(41, 83, 138, 1) 4%,
+    rgba(129, 177, 201, 1) 41%,
+    rgba(75, 78, 154, 1) 87%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(41, 83, 138, 1) 4%,
+    rgba(129, 177, 201, 1) 41%,
+    rgba(75, 78, 154, 1) 87%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#29538a",endColorstr="#4b4e9a",GradientType=1);
+}
+
 .bg-ornament-1 {
   background-image: url("/assets/images/bg/Bakground-1-Photoroom.png");
   background-size: cover;
