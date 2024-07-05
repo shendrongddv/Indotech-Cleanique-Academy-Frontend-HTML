@@ -1,0 +1,1066 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link href="./assets/css/style.css" rel="stylesheet" />
+
+    <!-- Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="flex flex-col antialiased">
+    <!-- Header -->
+    <header class="fixed left-0 top-0 w-full border-b bg-white px-4">
+      <div class="container flex items-center justify-between gap-6 py-4">
+        <!-- LogoSite -->
+        <a href="/">
+          <img
+            src="./assets/images/cleanique-academy.webp"
+            alt="Cleanique Academy"
+            class="h-10 w-auto"
+          />
+        </a>
+
+        <!-- nav -->
+        <ul class="hidden items-center justify-center gap-2 md:flex">
+          <li>
+            <a href="#" class="btn btn-ghost btn-active">Beranda</a>
+          </li>
+
+          <li>
+            <a href="#" class="btn btn-ghost">Bantuan</a>
+          </li>
+        </ul>
+
+        <!-- Auth -->
+        <div class="flex items-center justify-center gap-2">
+          <a href="#" class="btn btn-primary"
+            >Daftar
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="h-5 w-5"
+            >
+              <path
+                d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"
+              ></path>
+            </svg>
+          </a>
+
+          <!-- Drawer -->
+          <div class="drawer md:hidden">
+            <input id="my-drawer" type="checkbox" class="drawer-toggle" />
+            <div class="drawer-content">
+              <!-- Page content here -->
+              <label
+                for="my-drawer"
+                class="btn btn-outline btn-accent drawer-button aspect-square p-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  class="h-5 w-5"
+                >
+                  <path
+                    d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"
+                  ></path>
+                </svg>
+              </label>
+            </div>
+            <div class="drawer-side">
+              <label
+                for="my-drawer"
+                aria-label="close sidebar"
+                class="drawer-overlay"
+              ></label>
+
+              <!-- Mobile Menu -->
+              <div
+                class="menu flex h-full w-80 flex-col items-stretch justify-start gap-4 bg-white p-0"
+              >
+                <!-- LogoSite -->
+                <div class="flex h-20 items-center justify-start border-b p-4">
+                  <a href="/">
+                    <img
+                      src="./assets/images/cleanique-academy.webp"
+                      alt="Cleanique Academy"
+                      class="h-10 w-auto"
+                    />
+                  </a>
+                </div>
+
+                <!-- Nav -->
+
+                <!-- CTA -->
+                <div class="mt-auto grid gap-2 border-t p-4">
+                  <a
+                    href="https://api.whatsapp.com/send/?phone=6287872180088&text=Dengan%20CS%20Cleanique%20Academy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-primary w-full"
+                    ><i class="ri-whatsapp-line"></i>Customer Service</a
+                  >
+                  <a href="#" class="btn btn-outline w-full border"
+                    ><i class="ri-login-box-line"></i>Daftar</a
+                  >
+                </div>
+              </div>
+              <!-- ./ Mobile Menu -->
+            </div>
+          </div>
+          <!-- ./ Drawer -->
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="flex flex-col">
+      <!-- Hero -->
+      <section
+        class="bg-[url('./assets/images/bg/Bakground-1-Photoroom.png')] bg-cover bg-center bg-no-repeat px-4 py-20 pt-36"
+      >
+        <div
+          class="container flex flex-col gap-16 md:flex-row md:items-center md:justify-between"
+        >
+          <!-- Col -->
+          <div
+            class="flex w-full flex-col items-center gap-6 text-center md:w-6/12 md:items-start md:text-start"
+          >
+            <image
+              src="./assets/images/cleanique-academy.webp"
+              alt="Image"
+              class="h-8 w-auto md:h-20"
+            />
+
+            <h1 class="text-4xl font-black uppercase md:text-6xl">
+              Grow Yourself With Us
+            </h1>
+
+            <a
+              href="https://app.cleaniqueacademy.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary"
+              >Daftar Sekarang</a
+            >
+          </div>
+
+          <!-- Col -->
+          <div class="w-full md:w-5/12">
+            <figure
+              class="flex aspect-square w-full items-center justify-center"
+            >
+              <image
+                src="./assets/images/1.png"
+                alt="Image"
+                class="h-auto w-full"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!-- ./ Hero -->
+
+      <!-- About -->
+      <section class="px-4 py-20">
+        <div class="container flex items-center justify-center text-center">
+          <p class="w-full text-lg font-medium md:w-4/5 md:text-xl">
+            Cleanique Academy merupakan program unggulan dari PT Indotech Berkah
+            Abadi, salah satu perusahaan lokal dari Yogyakarta, melalui brand
+            nya Orchidcare memberikan pelatihan, pembinaan, serta permodalan
+            usaha bagi calon mitra Cleanique Academy yang nantinya akan
+            dibimbing oleh mentor dengan status kemitraan seumur hidup.
+          </p>
+        </div>
+      </section>
+      <!-- ./ About -->
+
+      <!-- Benefit -->
+      <section class="px-4 py-20">
+        <div class="container">
+          <!-- Benefit Lisr -->
+          <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-4">
+            <!-- Benefit Item -->
+            <div
+              class="flex flex-col overflow-hidden rounded-bl-[36px] rounded-tr-[36px] border bg-base-100 transition hover:shadow-xl md:row-span-2"
+            >
+              <!-- Media -->
+              <figure
+                class="flex items-center justify-center overflow-hidden max-md:aspect-video md:h-full md:w-full"
+              >
+                <img
+                  src="./assets/images/analisa.png"
+                  alt="Image"
+                  class="h-full w-full md:object-cover"
+                />
+              </figure>
+
+              <!-- Content -->
+              <div class="flex items-center justify-center p-4 text-center">
+                <h3 class="text-balance text-lg font-bold">
+                  Analisa Peluang Bisnis
+                </h3>
+              </div>
+            </div>
+            <!-- ./ Benefit Item -->
+
+            <!-- Benefit Item -->
+            <div
+              class="overflow-hidden rounded-bl-[36px] rounded-tr-[36px] border bg-base-100 transition hover:shadow-xl"
+            >
+              <!-- Media -->
+              <figure
+                class="flex aspect-video items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="./assets/images/bisnis.png"
+                  alt="Image"
+                  class="h-full w-full"
+                />
+              </figure>
+
+              <!-- Content -->
+              <div class="flex items-center justify-center p-4 text-center">
+                <h3 class="text-balance text-lg font-bold">
+                  Bisnis Minim Kompetitor
+                </h3>
+              </div>
+            </div>
+            <!-- ./ Benefit Item -->
+
+            <!-- Benefit Item -->
+            <div
+              class="overflow-hidden rounded-bl-[36px] rounded-tr-[36px] border bg-base-100 transition hover:shadow-xl"
+            >
+              <!-- Media -->
+              <figure
+                class="flex aspect-video items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="./assets/images/modal.png"
+                  alt="Image"
+                  class="h-full w-full"
+                />
+              </figure>
+
+              <!-- Content -->
+              <div class="flex items-center justify-center p-4 text-center">
+                <h3 class="text-balance text-lg font-bold">
+                  Modal Usaha Terjangkau
+                </h3>
+              </div>
+            </div>
+            <!-- ./ Benefit Item -->
+
+            <!-- Benefit Item -->
+            <div
+              class="overflow-hidden rounded-bl-[36px] rounded-tr-[36px] border bg-base-100 transition hover:shadow-xl"
+            >
+              <!-- Media -->
+              <figure
+                class="flex aspect-video items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="./assets/images/operasional.png"
+                  alt="Image"
+                  class="h-full w-full"
+                />
+              </figure>
+
+              <!-- Content -->
+              <div class="flex items-center justify-center p-4 text-center">
+                <h3 class="text-balance text-lg font-bold">
+                  Operasional Mudah
+                </h3>
+              </div>
+            </div>
+            <!-- ./ Benefit Item -->
+
+            <!-- Benefit Item -->
+            <div
+              class="overflow-hidden rounded-bl-[36px] rounded-tr-[36px] border bg-base-100 transition hover:shadow-xl"
+            >
+              <!-- Media -->
+              <figure
+                class="flex aspect-video items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="./assets/images/kualitas.png"
+                  alt="Image"
+                  class="h-full w-full"
+                />
+              </figure>
+
+              <!-- Content -->
+              <div class="flex items-center justify-center p-4 text-center">
+                <h3 class="text-balance text-lg font-bold">
+                  Kualitas Produk Premium
+                </h3>
+              </div>
+            </div>
+            <!-- ./ Benefit Item -->
+
+            <!-- Benefit Item -->
+            <div
+              class="overflow-hidden rounded-bl-[36px] rounded-tr-[36px] border bg-base-100 transition hover:shadow-xl"
+            >
+              <!-- Media -->
+              <figure
+                class="flex aspect-video items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="./assets/images/kebutuhan.png"
+                  alt="Image"
+                  class="h-full w-full"
+                />
+              </figure>
+
+              <!-- Content -->
+              <div class="flex items-center justify-center p-4 text-center">
+                <h3 class="text-balance text-lg font-bold">
+                  Kebutuhan Konsumen Tinggi
+                </h3>
+              </div>
+            </div>
+            <!-- ./ Benefit Item -->
+
+            <!-- Benefit Item -->
+            <div
+              class="overflow-hidden rounded-bl-[36px] rounded-tr-[36px] border bg-base-100 transition hover:shadow-xl"
+            >
+              <!-- Media -->
+              <figure
+                class="flex aspect-video items-center justify-center overflow-hidden"
+              >
+                <img
+                  src="./assets/images/dukungan.png"
+                  alt="Image"
+                  class="h-full w-full"
+                />
+              </figure>
+
+              <!-- Content -->
+              <div class="flex items-center justify-center p-4 text-center">
+                <h3 class="text-balance text-lg font-bold">
+                  Dukungan Pemasaran
+                </h3>
+              </div>
+            </div>
+            <!-- ./ Benefit Item -->
+          </div>
+          <!-- ./Benefit Lisr -->
+        </div>
+      </section>
+      <!-- ./ Benefit -->
+
+      <!-- Perlindungan Usaha -->
+      <section class="bg-[#1c643f] px-4 py-20">
+        <div class="container flex flex-col items-center gap-10">
+          <!-- Title -->
+          <h2
+            class="text-center text-2xl font-black uppercase text-white md:text-3xl"
+          >
+            Jaminan Perlindungan Usaha
+          </h2>
+
+          <!-- Guarante List -->
+          <div class="grid w-full gap-6 md:grid-cols-3">
+            <!-- Guarantee Item -->
+            <div
+              class="flex flex-col items-center justify-start gap-6 overflow-hidden rounded-bl-[36px] rounded-tr-[36px] border bg-base-100 p-6"
+            >
+              <!-- Media -->
+              <figure class="flex w-full items-center justify-center border">
+                <img
+                  src="./assets/images/ijin edar.png"
+                  alt="Image"
+                  class="h-auto w-full"
+                />
+              </figure>
+
+              <!-- Content -->
+              <div
+                class="flex flex-col items-center justify-start gap-2 text-center"
+              >
+                <h3 class="text-lg font-bold">Memiliki Ijin Edar</h3>
+
+                <p class="text-balance text-slate-500">
+                  Produk telah mengantongi izin edar KEMENKES, yang tentunya
+                  akan meningkatkan rasa aman bagi Mitra dalam menjual /
+                  mendistribusikan produk. Mitra hanya berhak menggunakan izin
+                  edar ini jika Mitra mengikuti prosedur/ketentuan yang
+                  ditetapkan oleh PT Indotech Berkah Abadi terkait standarisasi
+                  produk untuk memastikan kualitas dan proses pembuatan sabun
+                  terjaga dan dilakukan secara benar.
+                </p>
+              </div>
+            </div>
+            <!-- ./ Guarantee Item -->
+
+            <!-- Guarantee Item -->
+            <div
+              class="flex flex-col items-center justify-start gap-6 overflow-hidden rounded-bl-[36px] rounded-tr-[36px] border bg-base-100 p-6"
+            >
+              <!-- Media -->
+              <figure class="flex w-full items-center justify-center border">
+                <img
+                  src="./assets/images/DJKI.png"
+                  alt="Image"
+                  class="h-auto w-full"
+                />
+              </figure>
+
+              <!-- Content -->
+              <div
+                class="flex flex-col items-center justify-start gap-2 text-center"
+              >
+                <h3 class="text-lg font-bold">Merk Terdaftar DJKI</h3>
+
+                <p class="text-balance text-slate-500">
+                  Ketika Mitra bergabung dengan Cleanique Academy, Mitra
+                  memiliki hak untuk menggunakan merek tersebut dan dilindungi
+                  oleh undangundang untuk menghindari kemungkinan gugatan merek
+                  yang dapat mengganggu bisnis mitra.
+                </p>
+              </div>
+            </div>
+            <!-- ./ Guarantee Item -->
+
+            <!-- Guarantee Item -->
+            <div
+              class="flex flex-col items-center justify-start gap-6 overflow-hidden rounded-bl-[36px] rounded-tr-[36px] border bg-base-100 p-6"
+            >
+              <!-- Media -->
+              <figure class="flex w-full items-center justify-center border">
+                <img
+                  src="./assets/images/MUI.png"
+                  alt="Image"
+                  class="h-auto w-full"
+                />
+              </figure>
+
+              <!-- Content -->
+              <div
+                class="flex flex-col items-center justify-start gap-2 text-center"
+              >
+                <h3 class="text-lg font-bold">Bersertifikat Halal MUI</h3>
+
+                <p class="text-balance text-slate-500">
+                  Produk PT Indotech Berkah Abadi telah bersertifikat HALAL MUI,
+                  sehingga aman untuk digunakan, karena tidak mengandung bahan
+                  najis yang akan merusak kemurnian/nilai ibadah konsumun,
+                  terutama bagi konsumen yang muslim.
+                </p>
+              </div>
+            </div>
+            <!-- ./ Guarantee Item -->
+          </div>
+          <!-- ./ Guarante List -->
+        </div>
+      </section>
+      <!-- ./ Perlindungan Usaha -->
+
+      <!-- Fasilitas -->
+      <section
+        class="bg-[url('/v2/Bakground-3-Photoroom.png')] bg-cover bg-center bg-no-repeat px-4 py-20"
+      >
+        <div class="container flex flex-col items-center gap-10">
+          <!-- {/* ROW */} -->
+          <div
+            class="grid aspect-square w-full gap-4 md:w-7/12 md:grid-cols-2 md:gap-0"
+          >
+            <!-- {/* COL */} -->
+            <div
+              class="flex items-center justify-center p-4 md:aspect-square md:p-4"
+            >
+              <h2
+                class="text-center text-2xl font-black uppercase text-[#1C643F] md:w-2/3 md:text-3xl"
+              >
+                Fasilitas Mitra
+              </h2>
+            </div>
+
+            <!-- {/* COL */} -->
+            <div
+              class="flex flex-col items-center justify-center gap-2 rounded-br-[36px] rounded-tl-[36px] bg-[#1C643F] p-4 py-6 text-center text-white md:aspect-square md:items-start md:p-6 md:text-start"
+            >
+              <h3 class="text-lg font-bold md:text-xl">
+                Proteksi Perang Harga
+              </h3>
+              <p>
+                Ketika Mitra bergabung dengan Cleanique Academy, Mitra memiliki
+                hak untuk menggunakan merek tersebut dan dilindungi oleh
+                undang-undang untuk menghindari kemungkinan gugatan merek yang
+                dapat mengganggu bisnis mitra.
+              </p>
+            </div>
+
+            <!-- {/* COL */} -->
+            <div
+              class="flex flex-col items-center justify-center gap-2 rounded-br-[36px] rounded-tl-[36px] bg-[#1C643F] p-4 py-6 text-center text-white md:aspect-square md:items-start md:p-6 md:text-start"
+            >
+              <h3 class="text-lg font-bold md:text-xl">
+                Garansi Produk & Usaha
+              </h3>
+              <p>
+                <b>Produk :</b> garansi penggantian produk apabila terjadi
+                kegagalan dalam pengolahan produk setelah mengikuti panduan
+                pengolahan disertai bukti video pembuatan.
+              </p>
+              <p>
+                <b>Usaha :</b> garansi uang kembali apabila tidak balik modal
+                dalam jangka waktu yang telah ditentukan sesuai dengan
+                kesepakatan Bersama (MoU).
+              </p>
+            </div>
+
+            <!-- {/* COL */} -->
+            <div
+              class="flex items-center justify-center p-4 md:aspect-square md:p-4"
+            >
+              <span
+                class="text-center text-2xl font-black uppercase text-[#1C643F] md:w-2/3 md:text-3xl"
+              >
+                Cleanique Academy
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ./ Fasilitas -->
+
+      <!-- Alur Pendaftaran -->
+      <section class="bg-[#1C643F] px-4 py-20">
+        <div class="container flex flex-col items-center gap-12">
+          <!-- Title -->
+          <h2
+            class="text-center text-2xl font-black uppercase text-white md:text-3xl"
+          >
+            Alur Pendaftaran
+          </h2>
+
+          <!-- Row -->
+          <div class="grid w-full gap-4 md:w-2/3 md:grid-cols-2 md:gap-12">
+            <!-- Step Item -->
+            <div
+              class="flex items-center justify-between gap-4 md:flex-row-reverse"
+            >
+              <!-- Number -->
+              <div
+                class="flex aspect-square h-10 shrink-0 items-center justify-center rounded-full bg-base-100"
+              >
+                <span class="font-bold text-black">1</span>
+              </div>
+
+              <!-- Content -->
+              <div
+                class="h-full flex-1 rounded-br-3xl rounded-tl-3xl bg-base-100 p-6"
+              >
+                <p>Sonique melakukan pembuatan/daftar akun pada laman utama.</p>
+              </div>
+
+              <!-- Media -->
+              <figure class="w-10 shrink-0">
+                <img
+                  src="./assets/images/icon/icon2.png"
+                  alt="Icon"
+                  loading="lazy"
+                  class="h-auto w-full"
+                />
+              </figure>
+            </div>
+            <!-- ./ Step Item -->
+
+            <!-- Step Item -->
+            <div class="flex items-center justify-between gap-4">
+              <!-- Number -->
+              <div
+                class="flex aspect-square h-10 shrink-0 items-center justify-center rounded-full bg-base-100"
+              >
+                <span class="text-xl font-bold text-black">2</span>
+              </div>
+
+              <!-- Content -->
+              <div
+                class="h-full flex-1 rounded-bl-3xl rounded-tr-3xl bg-base-100 p-6"
+              >
+                <p>Mengisi data diri sebagai modal awal pendaftaran.</p>
+              </div>
+
+              <!-- Media -->
+              <figure class="w-10 shrink-0">
+                <img
+                  src="./assets/images/icon/icon.png"
+                  alt="Icon"
+                  loading="lazy"
+                  class="h-auto w-full"
+                />
+              </figure>
+            </div>
+            <!-- ./ Step Item -->
+
+            <!-- Step Item -->
+            <div
+              class="flex items-center justify-between gap-4 md:flex-row-reverse"
+            >
+              <!-- Number -->
+              <div
+                class="flex aspect-square h-10 shrink-0 items-center justify-center rounded-full bg-base-100"
+              >
+                <span class="text-xl font-bold text-black">3</span>
+              </div>
+
+              <!-- Content -->
+              <div
+                class="h-full flex-1 rounded-br-3xl rounded-tl-3xl bg-base-100 p-6"
+              >
+                <p>
+                  Terdapat 2 paket ujian (seputar bisnis & marketing) untuk
+                  mendapatkan permodalah usaha.
+                </p>
+              </div>
+
+              <!-- Media -->
+              <figure class="w-10 shrink-0">
+                <img
+                  src="./assets/images/icon/icon2.png"
+                  alt="Icon"
+                  loading="lazy"
+                  class="h-auto w-full"
+                />
+              </figure>
+            </div>
+            <!-- ./ Step Item -->
+
+            <!-- Step Item -->
+            <div class="flex items-center justify-between gap-4">
+              <!-- Number -->
+              <div
+                class="flex aspect-square h-10 shrink-0 items-center justify-center rounded-full bg-base-100"
+              >
+                <span class="text-xl font-bold text-black">3a</span>
+              </div>
+
+              <!-- Content -->
+              <div
+                class="h-full flex-1 rounded-bl-3xl rounded-tr-3xl bg-base-100 p-6"
+              >
+                <p>
+                  Ujian softskill berisi 35 butir soal pilihan ganda & 2 butir
+                  soal essai.
+                </p>
+              </div>
+
+              <!-- Media -->
+              <figure class="w-10 shrink-0">
+                <img
+                  src="./assets/images/icon/icon3.png"
+                  alt="Icon"
+                  loading="lazy"
+                  class="h-auto w-full"
+                />
+              </figure>
+            </div>
+            <!-- ./ Step Item -->
+
+            <!-- Step Item -->
+            <div
+              class="flex items-center justify-between gap-4 md:flex-row-reverse"
+            >
+              <!-- Number -->
+              <div
+                class="flex aspect-square h-10 shrink-0 items-center justify-center rounded-full bg-base-100"
+              >
+                <span class="text-xl font-bold text-black">3b</span>
+              </div>
+
+              <!-- Content -->
+              <div
+                class="h-full flex-1 rounded-br-3xl rounded-tl-3xl bg-base-100 p-6"
+              >
+                <p>Ujian hardskills berisi 26 butir soal pilihan ganda.</p>
+              </div>
+
+              <!-- Media -->
+              <figure class="w-10 shrink-0">
+                <img
+                  src="./assets/images/icon/icon3.png"
+                  alt="Icon"
+                  loading="lazy"
+                  class="h-auto w-full"
+                />
+              </figure>
+            </div>
+            <!-- ./ Step Item -->
+
+            <!-- Step Item -->
+            <div class="flex items-center justify-between gap-4">
+              <!-- Number -->
+              <div
+                class="flex aspect-square h-10 shrink-0 items-center justify-center rounded-full bg-base-100"
+              >
+                <span class="text-xl font-bold text-black">3c</span>
+              </div>
+
+              <!-- Content -->
+              <div
+                class="h-full flex-1 rounded-bl-3xl rounded-tr-3xl bg-base-100 p-6"
+              >
+                <p>
+                  Sonique memiliki kesempatan 2x24 jam untuk menyelesaikan paket
+                  ujian.
+                </p>
+              </div>
+
+              <!-- Media -->
+              <figure class="w-10 shrink-0">
+                <img
+                  src="./assets/images/icon/icon4.png"
+                  alt="Icon"
+                  loading="lazy"
+                  class="h-auto w-full"
+                />
+              </figure>
+            </div>
+            <!-- ./ Step Item -->
+
+            <!-- Step Item -->
+            <div
+              class="flex items-center justify-between gap-4 md:flex-row-reverse"
+            >
+              <!-- Number -->
+              <div
+                class="flex aspect-square h-10 shrink-0 items-center justify-center rounded-full bg-base-100"
+              >
+                <span class="text-xl font-bold text-black">4</span>
+              </div>
+
+              <!-- Content -->
+              <div class="flex-1 rounded-br-3xl rounded-tl-3xl bg-base-100 p-6">
+                <p>
+                  Pengumuman hasil ujian akan dikirimkan ke akun masing-masing
+                  sesuai linimasa.
+                </p>
+              </div>
+
+              <!-- Media -->
+              <figure class="w-10 shrink-0">
+                <img
+                  src="./assets/images/icon/icon5.png"
+                  alt="Icon"
+                  loading="lazy"
+                  class="h-auto w-full"
+                />
+              </figure>
+            </div>
+            <!-- ./ Step Item -->
+
+            <!-- Step Item -->
+            <div class="flex items-center justify-between gap-4">
+              <!-- Number -->
+              <div
+                class="flex aspect-square h-10 shrink-0 items-center justify-center rounded-full bg-base-100"
+              >
+                <span class="text-xl font-bold text-black">5</span>
+              </div>
+
+              <!-- Content -->
+              <div
+                class="h-full flex-1 rounded-bl-3xl rounded-tr-3xl bg-base-100 p-6"
+              >
+                <p>
+                  Hasil ujian menentukan jumlah permodalan usaha & biaya yang
+                  harus dibayarkan.
+                </p>
+              </div>
+
+              <!-- Media -->
+              <figure class="w-10 shrink-0">
+                <img
+                  src="./assets/images/icon/icon6.png"
+                  alt="Icon"
+                  loading="lazy"
+                  class="h-auto w-full"
+                />
+              </figure>
+            </div>
+            <!-- ./ Step Item -->
+          </div>
+
+          <!-- {/* ROW */} -->
+          <!-- <ul class="grid w-full md:w-2/3 gap-6 md:grid-cols-2 md:gap-x-16">
+            {copyAlurPendaftaran?.map((item) => (
+              <li
+                key={item.id}
+                class="flex justify-start items-start gap-4 md:even:flex-row-reverse"
+              >
+                <figure class="flex justify-center items-center aspect-square h-10 md:h-16 rounded-full border shrink-0">
+                  <Image
+                    src={`/v2/${item.media}`}
+                    alt={item.mark}
+                    width={80}
+                    height={80}
+                    class="md:h-7 h-4 w-auto"
+                  />
+                </figure>
+
+                <div class="bg-white flex-1 flex flex-col p-4 text-start h-full rounded-tl-3xl rounded-br-3xl">
+                  <h3 class="font-bold text-sm text-muted-foreground">{`#${item.mark}`}</h3>
+                  <p>{item.desc}</p>
+                </div>
+              </li>
+            ))}
+          </ul> -->
+        </div>
+      </section>
+      <!-- Alur Pendaftaran -->
+
+      <!-- ROI -->
+      <section class="py-20 md:px-4">
+        <div class="container flex items-center justify-center">
+          <figure class="flex w-full items-center justify-center md:w-4/5">
+            <img
+              src="./assets/images/ROI.png"
+              width="1476"
+              height="935"
+              loading="lazy"
+              alt="Image"
+              class="h-auto w-full"
+            />
+          </figure>
+        </div>
+      </section>
+      <!-- ./ ROI -->
+
+      <!-- Testimony -->
+      <section class="px-4 py-20">
+        <div class="container flex flex-col items-center gap-8">
+          <h2 class="heading-2">Apa Kata Mereka</h2>
+
+          <!-- Testimonies -->
+          <div class="grid w-full gap-8 md:grid-cols-3">
+            <!-- Testimony -->
+            <div
+              class="flex h-full flex-col gap-6 overflow-hidden rounded-2xl border p-6 transition hover:shadow-xl"
+            >
+              <!-- Star Rating -->
+              <div class="flex items-center gap-2 text-yellow-500">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+              </div>
+
+              <!-- Review -->
+              <p class="text-lg">
+                Modal terbatas, tapi semangat tinggi! Cleanique bantu modal dan
+                bimbingan, usaha isi ulang sabun saya sukses!
+              </p>
+
+              <!-- Reviewer -->
+              <div class="mt-auto flex flex-col">
+                <span class="font-medium">Windu</span>
+                <small class="text-slate-500"
+                  >Mitra Temanggung, Jawa Tengan</small
+                >
+              </div>
+            </div>
+            <!-- ./ Testimony -->
+
+            <!-- Testimony -->
+            <div
+              class="flex h-full flex-col gap-6 overflow-hidden rounded-2xl border p-6 transition hover:shadow-xl"
+            >
+              <!-- Star Rating -->
+              <div class="flex items-center gap-2 text-yellow-500">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+              </div>
+
+              <!-- Review -->
+              <p class="text-lg">
+                Dulu hanya kayawan biasa, sekarang jadi pengusaha isi ulang
+                sabun yang mandiri. Berkat Cleanique, mimpi saya terwujud!
+              </p>
+
+              <!-- Reviewer -->
+              <div class="mt-auto flex flex-col">
+                <span class="font-medium">Kevin</span>
+                <small class="text-slate-500">Mitra Denpasar, Bali</small>
+              </div>
+            </div>
+            <!-- ./ Testimony -->
+
+            <!-- Testimony -->
+            <div
+              class="flex h-full flex-col gap-6 overflow-hidden rounded-2xl border p-6 transition hover:shadow-xl"
+            >
+              <!-- Star Rating -->
+              <div class="flex items-center gap-2 text-yellow-500">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+              </div>
+
+              <!-- Review -->
+              <p class="text-lg">
+                Bimbingan Cleanique sangat membantu saya dalam mengembangkan
+                usaha isi ulang sabun. Omzet naik drastis, untung berlimpah!
+              </p>
+
+              <!-- Reviewer -->
+              <div class="mt-auto flex flex-col">
+                <span class="font-medium">Idha</span>
+                <small class="text-slate-500"
+                  >Mitra Sleman, D.I. Yogyakarta</small
+                >
+              </div>
+            </div>
+            <!-- ./ Testimony -->
+          </div>
+          <!-- ./ Testimonies -->
+        </div>
+      </section>
+      <!-- ./ Testimony -->
+
+      <!-- Requirement -->
+      <section class="bg-base-200 px-4 py-20">
+        <div class="container flex flex-col items-center gap-12 md:items-start">
+          <!-- Row -->
+          <img
+            src="./assets/images/cleanique-academy.webp"
+            alt="Cleanique Academy"
+            class="h-12 w-auto"
+          />
+          <!-- ./ Row -->
+
+          <!-- Row -->
+          <div
+            class="flex w-full flex-col items-center gap-4 md:flex-row md:justify-between"
+          >
+            <!-- Col -->
+            <figure
+              class="flex aspect-square w-full items-center justify-center md:w-5/12"
+            >
+              <img
+                src="./assets/images/creative-box.png"
+                loading="lazy"
+                width="1024"
+                height="1024"
+                alt=""
+              />
+            </figure>
+            <!-- ./ Col -->
+
+            <!-- Requirements -->
+            <div
+              class="grid w-full divide-y overflow-hidden rounded-br-[36px] rounded-tl-[36px] border-4 border-white bg-base-100 shadow-xl md:w-5/12"
+            >
+              <!-- Requirement -->
+              <div class="rounded-br-[36px] bg-[#289721] p-6">
+                <p class="text-center text-lg font-medium text-white">
+                  Apa yang kamu butuhkan untuk menjadi pengusaha??
+                </p>
+              </div>
+              <!-- ./ Requirement -->
+
+              <!-- Requirement -->
+              <div class="p-6">
+                <p class="text-center text-lg font-medium text-[#289721]">
+                  Ketertarikan kuat pada bisnis FMCG
+                </p>
+              </div>
+              <!-- ./ Requirement -->
+
+              <!-- Requirement -->
+              <div class="p-6">
+                <p class="text-center text-lg font-medium text-[#289721]">
+                  Memiliki rencana & gambaran bisnis
+                </p>
+              </div>
+              <!-- ./ Requirement -->
+
+              <!-- Requirement -->
+              <div class="p-6">
+                <p class="text-center text-lg font-medium text-[#289721]">
+                  Pengetahuan & kemampuan pengelolaan keuangan
+                </p>
+              </div>
+              <!-- ./ Requirement -->
+
+              <!-- Requirement -->
+              <div class="p-6">
+                <p class="text-center text-lg font-medium text-[#289721]">
+                  Motivasi Tinggi
+                </p>
+              </div>
+              <!-- ./ Requirement -->
+            </div>
+            <!-- ./ Requirements -->
+          </div>
+          <!-- ./ Row -->
+        </div>
+      </section>
+      <!-- ./ Requirement -->
+
+      <!-- CTA -->
+      <section class="px-4 py-14">
+        <div class="container">
+          <!-- Row -->
+          <div
+            class="flex w-full flex-col items-center md:flex-row md:justify-between"
+          >
+            <!-- Col -->
+            <figure
+              class="flex aspect-video w-full items-center justify-center md:w-6/12 md:shrink-0"
+            >
+              <img
+                src="./assets/images/daftar.png"
+                loading="lazy"
+                width="680"
+                height="238"
+                alt="Image"
+              />
+            </figure>
+            <!-- ./ Col -->
+
+            <!-- Col -->
+            <div class="grid w-full gap-2 md:w-3/12">
+              <a
+                href=""
+                class="btn btn-primary w-full border-red-500 bg-red-500 hover:border-red-800 hover:bg-red-800"
+              >
+                <i class="ri-login-box-line"></i>
+                Daftar</a
+              >
+
+              <a href="" class="btn btn-warning w-full">
+                <i class="ri-whatsapp-line"></i>
+                (+62)878-7218-008
+              </a>
+            </div>
+            <!-- ./ Col -->
+          </div>
+          <!-- ./ Row -->
+        </div>
+      </section>
+      <!-- ./ CTA -->
+    </main>
+
+    <!-- Footer -->
+  </body>
+</html>
