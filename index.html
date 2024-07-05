@@ -15,7 +15,7 @@
   </head>
   <body class="flex flex-col antialiased">
     <!-- Header -->
-    <header class="fixed left-0 top-0 w-full border-b bg-white px-4">
+    <header class="fixed left-0 top-0 z-50 w-full border-b bg-white px-4">
       <div class="container flex items-center justify-between gap-6 py-4">
         <!-- LogoSite -->
         <a href="/">
@@ -94,7 +94,24 @@
                   </a>
                 </div>
 
-                <!-- Nav -->
+                <!-- nav -->
+                <ul class="grid gap-2 p-4">
+                  <li>
+                    <a href="/" class="btn btn-ghost btn-active"
+                      ><i class="ri-home-4-line"></i>Beranda</a
+                    >
+                  </li>
+
+                  <li>
+                    <a
+                      href="https://api.whatsapp.com/send/?phone=6287872180088&text=Dengan%20CS%20Cleanique%20Academy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn btn-ghost"
+                      ><i class="ri-question-line"></i>Bantuan</a
+                    >
+                  </li>
+                </ul>
 
                 <!-- CTA -->
                 <div class="mt-auto grid gap-2 border-t p-4">
@@ -121,9 +138,9 @@
     </header>
 
     <!-- Main -->
-    <main class="flex flex-col">
+    <main class="flex flex-col bg-white">
       <!-- Hero -->
-      <section class="bg-base-200 px-4 pt-40">
+      <section class="bg-slate-100 px-4 pt-40">
         <div class="container flex flex-col items-center gap-12 text-center">
           <h1
             class="text-balance text-7xl font-black leading-none text-[#289721] md:text-7xl"
@@ -145,12 +162,12 @@
 
       <!-- Hero Features -->
       <section
-        class="bg-gradient-to-b from-base-200 from-50% to-transparent to-50% px-4"
+        class="bg-gradient-to-b from-slate-100 from-50% to-transparent to-50% px-4"
       >
         <div class="container">
           <!-- Features -->
           <div
-            class="grid w-full overflow-hidden rounded-2xl bg-base-100 shadow-xl max-md:divide-y max-md:px-6 md:grid-cols-3 md:divide-x md:p-6"
+            class="grid w-full overflow-hidden rounded-2xl bg-white shadow-xl max-md:divide-y max-md:px-6 md:grid-cols-3 md:divide-x md:p-6"
           >
             <!-- Feature -->
             <div class="px-0 py-6 md:px-6">
@@ -328,7 +345,7 @@
           <!-- Col -->
           <figure class="jusc flex items-center overflow-hidden rounded-2xl">
             <img
-              src="./assets/images/product-banner.png"
+              src="./assets/images/produk-unggulan.png"
               alt="Image"
               class="h-auto w-full"
             />
@@ -345,10 +362,10 @@
               >
                 <!-- Media -->
                 <figure
-                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-base-200 p-4 md:h-20"
+                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-slate-100 p-4 md:h-20 md:p-2"
                 >
                   <img
-                    src="./assets/images/01HW5F1G7D7NVHTB6M6GV776WC.png"
+                    src="./assets/images/product/determat-matic.png"
                     alt="Cleanique Academy"
                     class="h-auto w-full"
                   />
@@ -374,10 +391,10 @@
               >
                 <!-- Media -->
                 <figure
-                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-base-200 p-4 md:h-20"
+                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-slate-100 p-4 md:h-20 md:p-2"
                 >
                   <img
-                    src="./assets/images/01HW5F1G7D7NVHTB6M6GV776WC.png"
+                    src="./assets/images/product/softsense.png"
                     alt="Cleanique Academy"
                     class="h-auto w-full"
                   />
@@ -403,10 +420,10 @@
               >
                 <!-- Media -->
                 <figure
-                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-base-200 p-4 md:h-20"
+                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-slate-100 p-4 md:h-20 md:p-2"
                 >
                   <img
-                    src="./assets/images/01HW5F1G7D7NVHTB6M6GV776WC.png"
+                    src="./assets/images/product/determat-busa.png"
                     alt="Cleanique Academy"
                     class="h-auto w-full"
                   />
@@ -432,10 +449,10 @@
               >
                 <!-- Media -->
                 <figure
-                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-base-200 p-4 md:h-20"
+                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-slate-100 p-4 md:h-20 md:p-2"
                 >
                   <img
-                    src="./assets/images/01HW5F1G7D7NVHTB6M6GV776WC.png"
+                    src="./assets/images/product/arai.png"
                     alt="Cleanique Academy"
                     class="h-auto w-full"
                   />
@@ -461,10 +478,10 @@
               >
                 <!-- Media -->
                 <figure
-                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-base-200 p-4 md:h-20"
+                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-slate-100 p-4 md:h-20 md:p-2"
                 >
                   <img
-                    src="./assets/images/01HW5F1G7D7NVHTB6M6GV776WC.png"
+                    src="./assets/images/product/determat-eco.png"
                     alt="Cleanique Academy"
                     class="h-auto w-full"
                   />
@@ -490,10 +507,10 @@
               >
                 <!-- Media -->
                 <figure
-                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-base-200 p-4 md:h-20"
+                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-slate-100 p-4 md:h-20 md:p-2"
                 >
                   <img
-                    src="./assets/images/01HW5F1G7D7NVHTB6M6GV776WC.png"
+                    src="./assets/images/product/essenz.png"
                     alt="Cleanique Academy"
                     class="h-auto w-full"
                   />
@@ -519,10 +536,10 @@
               >
                 <!-- Media -->
                 <figure
-                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-base-200 p-4 md:h-20"
+                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-slate-100 p-4 md:h-20 md:p-2"
                 >
                   <img
-                    src="./assets/images/01HW5F1G7D7NVHTB6M6GV776WC.png"
+                    src="./assets/images/product/oclean.png"
                     alt="Cleanique Academy"
                     class="h-auto w-full"
                   />
@@ -548,10 +565,10 @@
               >
                 <!-- Media -->
                 <figure
-                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-base-200 p-4 md:h-20"
+                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-slate-100 p-4 md:h-20 md:p-2"
                 >
                   <img
-                    src="./assets/images/01HW5F1G7D7NVHTB6M6GV776WC.png"
+                    src="./assets/images/product/athari.png"
                     alt="Cleanique Academy"
                     class="h-auto w-full"
                   />
@@ -577,10 +594,10 @@
               >
                 <!-- Media -->
                 <figure
-                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-base-200 p-4 md:h-20"
+                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-slate-100 p-4 md:h-20 md:p-2"
                 >
                   <img
-                    src="./assets/images/01HW5F1G7D7NVHTB6M6GV776WC.png"
+                    src="./assets/images/product/octa.png"
                     alt="Cleanique Academy"
                     class="h-auto w-full"
                   />
@@ -606,10 +623,10 @@
               >
                 <!-- Media -->
                 <figure
-                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-base-200 p-4 md:h-20"
+                  class="flex aspect-square shrink-0 items-center justify-center overflow-hidden rounded-2xl bg-slate-100 p-4 md:h-20 md:p-2"
                 >
                   <img
-                    src="./assets/images/01HW5F1G7D7NVHTB6M6GV776WC.png"
+                    src="./assets/images/product/detta.png"
                     alt="Cleanique Academy"
                     class="h-auto w-full"
                   />
@@ -739,57 +756,245 @@
           <h2 class="heading-2">FAQ</h2>
 
           <!-- Accordions -->
-          <div class="w-full space-y-4 md:w-1/2">
-            <!-- Accordion -->
+          <div class="isolate w-full space-y-4 md:w-1/2">
+            <!-- Accordion 1 -->
             <div
               class="collapse collapse-arrow border bg-white transition checked:shadow-xl"
             >
               <input type="radio" name="my-accordion-2" checked="checked" />
-              <div class="collapse-title font-medium">
-                Click to open this one and close others
-              </div>
+              <div class="collapse-title font-medium">Ini Program apa ya?</div>
               <div class="collapse-content">
                 <p
                   class="text-sm text-slate-500 max-md:text-balance md:text-base"
                 >
-                  hello
+                  program ini adalah program kemitraan yang dilengkapi dengan
+                  bimbingan dari kantor pusat seputar pengembangan bisnis, juga
+                  di ada pemodalan bagi siapa saja yang kami nilai memiliki
+                  kompetensi yang tinggi untuk menjalankan dan mengembangkan
+                  bisnis ini.
                 </p>
               </div>
             </div>
 
             <!-- ./ Accordion -->
 
-            <!-- Accordion -->
+            <!-- Accordion 2 -->
             <div
               class="collapse collapse-arrow border bg-white transition checked:shadow-xl"
             >
               <input type="radio" name="my-accordion-2" />
               <div class="collapse-title font-medium">
-                Click to open this one and close others
+                Systemnya seperti apa min?
               </div>
               <div class="collapse-content">
                 <p
                   class="text-sm text-slate-500 max-md:text-balance md:text-base"
                 >
-                  hello
+                  System yang kami sediakan adalah kemitraan lisensi, yang mana
+                  kedepannya tidak ada bagi hasil antara mitra dan kantor pusat,
+                  dengan kata lain keuntungan 100% akan menjadi milik mitra.
                 </p>
               </div>
             </div>
             <!-- ./ Accordion -->
 
-            <!-- Accordion -->
+            <!-- Accordion 3 -->
             <div
               class="collapse collapse-arrow border bg-white transition checked:shadow-xl"
             >
               <input type="radio" name="my-accordion-2" />
               <div class="collapse-title font-medium">
-                Click to open this one and close others
+                Produknya apa saja ya min?
               </div>
               <div class="collapse-content">
                 <p
                   class="text-sm text-slate-500 max-md:text-balance md:text-base"
                 >
-                  hello
+                  Produk yang dipasarkan adalah Chemical kebersihan, mencakup
+                  Chemical homecare(Deterjen cair,Pembersih lantai, Pembersih
+                  Kaca, Sabun cuci piring, Karbol, pembersih kerak dll),
+                  Chemical laundry(Deterjen laundry, Parfum Laundry, Pelicin
+                  setrika, Softener, Anti noda, Pembersih tabung mesin cuci
+                  dll), Personal Care(Parfum pakaian, Sabun Mandi, Deodoran
+                  dll).
+                </p>
+              </div>
+            </div>
+            <!-- ./ Accordion -->
+
+            <!-- Accordion 4 -->
+            <div
+              class="collapse collapse-arrow border bg-white transition checked:shadow-xl"
+            >
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title font-medium">
+                Produknya seperti apa min?
+              </div>
+              <div
+                class="collapse-content text-sm text-slate-500 max-md:text-balance md:text-base"
+              >
+                Produknya ada 2 jenis
+                <br />
+                <ol>
+                  <li>
+                    a. <b>Produk siap pakai</b> : Produk yang tidak perlu di
+                    olah lagi, sehingga bisa langsung digunakan oleh customer
+                    setelah membeli.
+                  </li>
+                  <li>
+                    b. <b>Produk paket bahan</b> : Produk ½ jadi yang perlu di
+                    encerkan sehingga siap di kemas untuk dijual atau di gunakan
+                    sendiri.
+                  </li>
+                </ol>
+              </div>
+            </div>
+            <!-- ./ Accordion -->
+
+            <!-- Accordion 5 -->
+            <div
+              class="collapse collapse-arrow border bg-white transition checked:shadow-xl"
+            >
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title font-medium">
+                Cara daftarnya gimana?
+              </div>
+              <div class="collapse-content">
+                <p
+                  class="text-sm text-slate-500 max-md:text-balance md:text-base"
+                >
+                  Cara daftarnya gampang kak, cukup ogin atau mendaftar akun
+                  untuk mengikuti ujiannya, kemudian jawab semua soal-soal yang
+                  di berikan, kemudian tunggu hasil dari ujiannya yang akan di
+                  umumkan oleh admin kami, jika beruntung kamu bisa dapet
+                  pemodalan dari pusat dan hanya perlu bayar 75% atau bahkan
+                  50%.
+                </p>
+              </div>
+            </div>
+            <!-- ./ Accordion -->
+
+            <!-- Accordion 6 -->
+            <div
+              class="collapse collapse-arrow border bg-white transition checked:shadow-xl"
+            >
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title font-medium">
+                Produknya apakah aman?
+              </div>
+              <div class="collapse-content">
+                <p
+                  class="text-sm text-slate-500 max-md:text-balance md:text-base"
+                >
+                  Tentu produk-produk kami aman, karena kami sudah berbadan
+                  hukum dan sudah memiliki sertifikat produksi dari kemenkes,
+                  ditambah produk-produk kami adalah produk yang ramah
+                  lingkungan, karena terbuat dari bahan baku ester nabati.
+                </p>
+              </div>
+            </div>
+            <!-- ./ Accordion -->
+
+            <!-- Accordion 7 -->
+            <div
+              class="collapse collapse-arrow border bg-white transition checked:shadow-xl"
+            >
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title font-medium">
+                Apakah ada garansinya min?
+              </div>
+              <div
+                class="collapse-content text-sm text-slate-500 max-md:text-balance md:text-base"
+              >
+                <p>Untuk garansi kami sediakan 2 jenis :</p>
+
+                <ol>
+                  <li>a. Garansi Produk</li>
+                  <li>b. Garanasi usaha</li>
+                </ol>
+
+                <p>
+                  sehingga dengan 2 garansi ini, akan memberikan jaminan
+                  keamanan bagi mitra dan customer.
+                </p>
+              </div>
+            </div>
+            <!-- ./ Accordion -->
+
+            <!-- Accordion 8 -->
+            <div
+              class="collapse collapse-arrow border bg-white transition checked:shadow-xl"
+            >
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title font-medium">
+                Apakah nanti akan di bimbing bagi yang pemula?
+              </div>
+              <div class="collapse-content">
+                <p
+                  class="text-sm text-slate-500 max-md:text-balance md:text-base"
+                >
+                  Untuk semua mitra tentunya akan kami bimbing dan kami berikan
+                  support, terutama untuk bidang marketing oline.
+                </p>
+              </div>
+            </div>
+            <!-- ./ Accordion -->
+
+            <!-- Accordion 9 -->
+            <div
+              class="collapse collapse-arrow border bg-white transition checked:shadow-xl"
+            >
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title font-medium">
+                Programnya sampai kapan ya ini?
+              </div>
+              <div class="collapse-content">
+                <p
+                  class="text-sm text-slate-500 max-md:text-balance md:text-base"
+                >
+                  Program pemodalan ini sangat terbatas ya kak, untuk gelombang
+                  awal akan berakhir pada tgl 2 oktober 2024.
+                </p>
+              </div>
+            </div>
+            <!-- ./ Accordion -->
+
+            <!-- Accordion 10 -->
+            <div
+              class="collapse collapse-arrow border bg-white transition checked:shadow-xl"
+            >
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title font-medium">
+                Diluar event ini, apakah tetap bisa mendaftar?
+              </div>
+              <div class="collapse-content">
+                <p
+                  class="text-sm text-slate-500 max-md:text-balance md:text-base"
+                >
+                  Tentu saja bisa, namun tidak lagi dengan program pemodalan,
+                  melainkan dengan program dan harga reguler.
+                </p>
+              </div>
+            </div>
+            <!-- ./ Accordion -->
+
+            <!-- Accordion 11 -->
+            <div
+              class="collapse collapse-arrow border bg-white transition checked:shadow-xl"
+            >
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title font-medium">
+                Untuk legalitas perusahaannya apakah aman?
+              </div>
+              <div class="collapse-content">
+                <p
+                  class="text-sm text-slate-500 max-md:text-balance md:text-base"
+                >
+                  Untuk legalitas kami sudah cukup lengkap, kami sudah berbadan
+                  Hukum PT, sertifikat produksi dari kemenken-RI, sertifikat
+                  HALA MUI, Sertifikat Greem Chemical, Izin edar kemenkes RI,
+                  Brand kami juga sudah terdaftar du DJKI, Merk kami sudah
+                  terdaftar di HAKI.
                 </p>
               </div>
             </div>
@@ -802,7 +1007,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="border-t bg-base-100 px-4 pb-6 pt-20 text-opacity-75">
+    <footer class="border-t bg-slate-100 px-4 pb-6 pt-20">
       <div class="container flex flex-col items-center gap-12">
         <!-- Row -->
         <div

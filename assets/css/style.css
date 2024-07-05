@@ -8456,6 +8456,10 @@ html:has(.drawer-open.drawer-open) {
   isolation: auto;
 }
 
+.z-50 {
+  z-index: 50;
+}
+
 .float-start {
   float: inline-start;
 }
@@ -9819,6 +9823,11 @@ html:has(.drawer-open.drawer-open) {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-slate-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\/v2\/Bakground-3-Photoroom\.png\'\)\] {
   background-image: url('/v2/Bakground-3-Photoroom.png');
 }
@@ -9839,6 +9848,12 @@ html:has(.drawer-open.drawer-open) {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-slate-100 {
+  --tw-gradient-from: #f1f5f9 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(241 245 249 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .from-50\% {
   --tw-gradient-from-position: 50%;
 }
@@ -9849,6 +9864,10 @@ html:has(.drawer-open.drawer-open) {
 
 .to-transparent {
   --tw-gradient-to: transparent var(--tw-gradient-to-position);
+}
+
+.to-white {
+  --tw-gradient-to: #fff var(--tw-gradient-to-position);
 }
 
 .to-50\% {
@@ -10996,6 +11015,10 @@ body,
 
   .md\:p-6 {
     padding: 1.5rem;
+  }
+
+  .md\:p-2 {
+    padding: 0.5rem;
   }
 
   .md\:px-4 {
