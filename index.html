@@ -29,29 +29,26 @@
         <!-- nav -->
         <ul class="hidden items-center justify-center gap-2 md:flex">
           <li>
-            <a href="#" class="btn btn-ghost btn-active">Beranda</a>
+            <a href="/" class="btn btn-ghost btn-active"
+              ><i class="ri-home-4-line"></i>Beranda</a
+            >
           </li>
 
           <li>
-            <a href="#" class="btn btn-ghost">Bantuan</a>
+            <a
+              href="https://api.whatsapp.com/send/?phone=6287872180088&text=Dengan%20CS%20Cleanique%20Academy"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-ghost"
+              ><i class="ri-question-line"></i>Bantuan</a
+            >
           </li>
         </ul>
 
         <!-- Auth -->
         <div class="flex items-center justify-center gap-2">
-          <a href="#" class="btn btn-primary"
-            >Daftar
-
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              class="h-5 w-5"
-            >
-              <path
-                d="M13.1717 12.0007L8.22192 7.05093L9.63614 5.63672L16.0001 12.0007L9.63614 18.3646L8.22192 16.9504L13.1717 12.0007Z"
-              ></path>
-            </svg>
+          <a href="https://app.cleaniqueacademy.com/" class="btn btn-primary"
+            ><i class="ri-login-box-line"></i>Daftar
           </a>
 
           <!-- Drawer -->
@@ -106,10 +103,12 @@
                     target="_blank"
                     rel="noopener noreferrer"
                     class="btn btn-primary w-full"
-                    ><i class="ri-whatsapp-line"></i>Customer Service</a
+                    ><i class="ri-whatsapp-line"></i>(+62)878-7218-008</a
                   >
-                  <a href="#" class="btn btn-outline w-full border"
-                    ><i class="ri-login-box-line"></i>Daftar</a
+                  <a
+                    href="https://app.cleaniqueacademy.com/"
+                    class="btn btn-outline w-full border"
+                    ><i class="ri-login-box-line"></i>Daftar Sekarang</a
                   >
                 </div>
               </div>
@@ -125,7 +124,7 @@
     <main class="flex flex-col">
       <!-- Hero -->
       <section class="bg-base-200 px-4 pt-40">
-        <div class="container flex flex-col items-center gap-8 text-center">
+        <div class="container flex flex-col items-center gap-12 text-center">
           <h1
             class="text-balance text-7xl font-black leading-none text-[#289721] md:text-7xl"
           >
@@ -133,12 +132,10 @@
           </h1>
 
           <!-- Media -->
-          <figure
-            class="flex aspect-video w-full items-end justify-center px-4"
-          >
+          <figure class="flex w-full items-end justify-center px-4">
             <img
-              src="./assets/images/01HXXJ91W9W2V5F3VDX10YNJTC.jpg"
-              alt=""
+              src="./assets/images/Screenshot 2024-07-05 112528-Photoroom.png"
+              alt="Image"
               class="h-auto w-full"
             />
           </figure>
@@ -198,7 +195,7 @@
               class="h-12 w-auto"
             />
 
-            <span class="text-lg font-bold"
+            <span class="text-lg font-bold text-[#289721]"
               >Berani Memulai, Menjadi Peluang</span
             >
           </div>
@@ -222,11 +219,13 @@
             <div
               class="flex h-full flex-col items-center justify-start gap-6 rounded-2xl border bg-white p-6 text-center shadow-xl md:p-6"
             >
-              <img
-                src="./assets/images/cleanique-academy.webp"
-                alt="Cleanique Academy"
-                class="h-12 w-auto"
-              />
+              <figure class="h-auto w-3/4">
+                <img
+                  src="./assets/images/cleanique-academy.webp"
+                  alt="Cleanique Academy"
+                  class="h-auto w-full"
+                />
+              </figure>
 
               <h3 class="text-lg font-bold md:text-xl">ACADEMY</h3>
 
@@ -248,11 +247,13 @@
             <div
               class="flex h-full flex-col items-center justify-start gap-6 rounded-2xl border bg-white p-6 text-center shadow-xl md:p-6"
             >
-              <img
-                src="./assets/images/cleanique-academy.webp"
-                alt="Cleanique Academy"
-                class="h-12 w-auto"
-              />
+              <figure class="h-auto w-1/2">
+                <img
+                  src="./assets/images/cleanique-mart.png"
+                  alt="Cleanique Academy"
+                  class="h-auto w-full"
+                />
+              </figure>
 
               <h3 class="text-lg font-bold md:text-xl">REGULER</h3>
 
@@ -279,9 +280,15 @@
 
       <!-- Produk Unggulan -->
       <section class="px-4 py-20">
-        <div class="container grid gap-20 md:grid-cols-3">
+        <div class="container grid gap-12 md:grid-cols-3 md:gap-20">
           <!-- Col -->
-          <div class="overflow-hidden rounded-2xl border"></div>
+          <figure class="jusc flex items-center overflow-hidden rounded-2xl">
+            <img
+              src="./assets/images/product-banner.png"
+              alt="Image"
+              class="h-auto w-full"
+            />
+          </figure>
           <!-- ./ Col -->
 
           <!-- Col -->
@@ -751,5 +758,113 @@
     </main>
 
     <!-- Footer -->
+    <footer class="border-t bg-base-100 px-4 pb-6 pt-20 text-opacity-75">
+      <div class="container flex flex-col items-center gap-12">
+        <!-- Row -->
+        <div
+          class="flex w-full flex-col gap-12 md:flex-row md:items-start md:justify-between"
+        >
+          <!-- Col -->
+          <div
+            class="flex w-full flex-col items-center gap-4 md:w-2/5 md:items-start"
+          >
+            <a href="/">
+              <img
+                src="./assets/images/cleanique-academy.webp"
+                alt="Cleanique Academy"
+                class="h-12 w-auto"
+              />
+            </a>
+          </div>
+          <!-- ./ Col -->
+
+          <!-- Col -->
+          <div class="flex flex-1 flex-col items-center gap-4 md:items-start">
+            <span class="text-lg font-bold">Program</span>
+
+            <ul class="grid gap-2 text-center md:text-start">
+              <li>
+                <a href="program-ca.html" class="link-hover link"
+                  ><i class="ri-arrow-right-s-line"></i>Cleanique Academy™</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="https://depocleanique.co.id/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="link-hover link"
+                  ><i class="ri-arrow-right-s-line"></i>Depo Cleanique™</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- ./ Col -->
+
+          <!-- Col -->
+          <div class="flex flex-1 flex-col items-center gap-4 md:items-start">
+            <span class="text-lg font-bold">Kontak</span>
+
+            <ul class="grid gap-2 text-center md:text-start">
+              <li>
+                <a
+                  href="https://api.whatsapp.com/send/?phone=6287872180088&text=Dengan%20CS%20Cleanique%20Academy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="link-hover link"
+                  ><i class="ri-arrow-right-s-line"></i>(+62)878-7218-008</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- ./ Col -->
+
+          <!-- Col -->
+          <div class="flex flex-1 flex-col items-center gap-4 md:items-start">
+            <span class="text-lg font-bold">Follow</span>
+
+            <ul class="grid gap-2 text-center md:text-start">
+              <li>
+                <a
+                  href="https://www.tiktok.com/@cleaniqueacademy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="link-hover link"
+                  ><i class="ri-arrow-right-s-line"></i>TikTok</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="https://www.instagram.com/cleaniqueacademy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="link-hover link"
+                  ><i class="ri-arrow-right-s-line"></i>Instagram</a
+                >
+              </li>
+
+              <li>
+                <a
+                  href="https://web.facebook.com/people/Cleaniqueacademy/61560606725248/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="link-hover link"
+                  ><i class="ri-arrow-right-s-line"></i>Facebook</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- ./ Col -->
+        </div>
+        <!-- ./ Row -->
+
+        <!-- Row -->
+        <small>&copy; 2024. Cleanique Academy, All right reserved.</small>
+        <!-- ./ Row -->
+      </div>
+    </footer>
+    <!-- ./ Footer -->
   </body>
 </html>

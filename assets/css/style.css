@@ -8512,6 +8512,10 @@ html:has(.drawer-open.drawer-open) {
   margin-top: auto;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -8663,10 +8667,6 @@ html:has(.drawer-open.drawer-open) {
   height: 100%;
 }
 
-.min-h-full {
-  min-height: 100%;
-}
-
 .w-1 {
   width: 0.25rem;
 }
@@ -8701,6 +8701,18 @@ html:has(.drawer-open.drawer-open) {
 
 .w-full {
   width: 100%;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-1\/2 {
+  width: 50%;
 }
 
 .flex-1 {
@@ -9249,10 +9261,6 @@ html:has(.drawer-open.drawer-open) {
   gap: 0.5rem;
 }
 
-.gap-20 {
-  gap: 5rem;
-}
-
 .gap-4 {
   gap: 1rem;
 }
@@ -9275,6 +9283,12 @@ html:has(.drawer-open.drawer-open) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
 }
 
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -9810,10 +9824,6 @@ html:has(.drawer-open.drawer-open) {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\.\/assets\/images\/bg\/Bakground-1-Photoroom\.png\'\)\] {
-  background-image: url('../assets/images/bg/Bakground-1-Photoroom.png');
-}
-
 .bg-\[url\(\'\/v2\/Bakground-3-Photoroom\.png\'\)\] {
   background-image: url('/v2/Bakground-3-Photoroom.png');
 }
@@ -9824,6 +9834,10 @@ html:has(.drawer-open.drawer-open) {
 
 .bg-\[url\(\'\.\/assets\/images\/bg\/Bakground-1-Photoroom\.png\'\)\] {
   background-image: url('./assets/images/bg/Bakground-1-Photoroom.png');
+}
+
+.bg-\[url\(\'\/assets\/images\/bg\/Bakground-1-Photoroom\.png\'\)\] {
+  background-image: url('/assets/images/bg/Bakground-1-Photoroom.png');
 }
 
 .from-base-200 {
@@ -10018,6 +10032,11 @@ html:has(.drawer-open.drawer-open) {
   padding-bottom: 1.5rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
@@ -10028,6 +10047,10 @@ html:has(.drawer-open.drawer-open) {
 
 .pt-40 {
   padding-top: 10rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .text-left {
@@ -10214,11 +10237,6 @@ html:has(.drawer-open.drawer-open) {
   color: rgb(51 102 153 / .35);
 }
 
-.text-base-content {
-  --tw-text-opacity: 1;
-  color: var(--fallback-bc,oklch(var(--bc)/var(--tw-text-opacity)));
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -10242,6 +10260,10 @@ html:has(.drawer-open.drawer-open) {
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+.text-opacity-75 {
+  --tw-text-opacity: 0.75;
 }
 
 .underline {
@@ -10639,6 +10661,27 @@ body,
   }
 }
 
+.bg-ornament-1 {
+  background-image: url("/assets/images/bg/Bakground-1-Photoroom.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg-ornament-2 {
+  background-image: url("/assets/images/bg/Bakground-3-Photoroom.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg-ornament-3 {
+  background-image: url("/assets/images/bg/background2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 @media (hover:hover) {
   .table .\*\:hover > *tr:hover,
   .table .\*\:hover > *tr:nth-child(even):hover {
@@ -10868,6 +10911,10 @@ body,
     width: 100%;
   }
 
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
   .md\:shrink-0 {
     flex-shrink: 0;
   }
@@ -10910,6 +10957,10 @@ body,
 
   .md\:gap-12 {
     gap: 3rem;
+  }
+
+  .md\:gap-20 {
+    gap: 5rem;
   }
 
   .md\:gap-6 {
